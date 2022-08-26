@@ -1,0 +1,88 @@
+
+.container{
+   padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container .conteudo{
+    display: flex;
+    flex-direction: column ;
+}
+
+
+.container figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+figure img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 6%;
+    border: 1px solid #00e0ff;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+figcaption{
+    color: blue;
+    
+}
+
+.conteudo h2{
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+
+.conteudo .sobre p{
+    width: 95%;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.techs{
+    margin-top: 50px;
+   
+}
+
+.techs h2{
+    margin-bottom: 20px;
+}
+
+.techs .cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cards-container .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 80px;
+    background-color: gold;
+    margin-left: 5px;
+    border-radius: 5px;
+   
+}
+
+.cards-container .card i{
+    font-size: 50px;
+    color: blue;
+}
+
+.card:hover{
+    background-color: aliceblue;
+}
+
+

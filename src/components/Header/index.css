@@ -1,0 +1,19 @@
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategray;
+    align-items: center;
+    color: white;
+    padding: 0 5%;
+    
+}
+
+header a {
+    color: white;
+    padding-left: 15px;
+}
+
+header a i {
+    font-size: 30px;
+}
